@@ -27,7 +27,9 @@ class RoutineCheckPage extends StatelessWidget {
                   );
                 }),
           ),
-          Expanded(
+          Container(
+              width: 100,
+              height: 100,
               child: Align(
                   alignment: FractionalOffset.bottomCenter,
                   child: CupertinoButton(

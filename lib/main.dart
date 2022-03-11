@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:organization_app/pages/tasks.dart';
+import 'package:organization_app/pages/routineview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       title: 'Organizaton App',
-      home: RoutinePage(),
+      home: RoutineViewPage(),
     );
   }
 }

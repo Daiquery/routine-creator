@@ -11,12 +11,13 @@ import 'package:organization_app/stuff/mockroutines.dart';
 //   "Bedtime Preparation",
 // ];
 
-class RoutinePage extends StatelessWidget {
+class RoutineViewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoPageScaffold(
       navigationBar: const CupertinoNavigationBar(
         middle: Text('Routines'),
+        automaticallyImplyLeading: false,
       ),
       child: SafeArea(
           child: Column(
